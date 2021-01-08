@@ -1,0 +1,19 @@
+{
+  "name": "task-9",
+  "version": "1.0.0",
+  "description": "Now that we are persisting tasks to `localStorage`, we need a way to delete old tasks so that they don't fill up the list over time.",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "mocha ./example/test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "assert": "^2.0.0",
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
+  }
+}
