@@ -31,7 +31,8 @@ describe("TaskManager", () => {
     const taskManager = new TaskManager(0);
     taskManager.addTask("name", "description", "assignedTo", "dueDate")
     let id = 0;
-    assert.ok(id === taskManager.tasks[0].id);
+    let result = taskManager.getTaskById(0);
+   assert.ok(id === result.id);
   })
 
   it("selects the right id a randomly selected task", function () {
@@ -45,8 +46,9 @@ describe("TaskManager", () => {
     
     let random = Math.round(Math.random() * 6);
     let randomId = random;
+    let result = taskManager.getTaskById(random);
     console.log(randomId);
-    assert.ok(randomId === taskManager.tasks[random].id);
+    assert.ok(randomId === result.id);
   })
 
 })

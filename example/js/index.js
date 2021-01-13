@@ -3,7 +3,13 @@ const taskManager = new TaskManager(0);
 
 taskManager.load();
 
+
+
 taskManager.render();
+
+
+
+
 
 const newTaskForm = document.querySelector('#newTaskForm');
 

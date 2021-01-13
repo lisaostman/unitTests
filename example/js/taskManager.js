@@ -35,6 +35,7 @@ class TaskManager {
         };
 
         this.tasks.push(task);
+        
     }
 
     // Create the deleteTask method
