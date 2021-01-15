@@ -7,7 +7,7 @@
     "example": "example"
   },
   "scripts": {
-    "test": "mocha ./example/test.js"
+    "test": "mocha ./simpleTest/test.js"
   },
   "author": "",
   "license": "ISC",
